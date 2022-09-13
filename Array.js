@@ -4,6 +4,7 @@ var highest = 0;
 var lowest = 999;
 var trapIndex = 0;
 var traps = hero.findByType("fire-trap");
+
 while(trapIndex < traps.length) {
     var trap = traps[trapIndex];
     if (trap.value > highest){
